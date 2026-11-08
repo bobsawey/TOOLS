@@ -1,0 +1,5 @@
+# Arch/CachyOS: prefer the maintained python-cryptography system package.
+# Minimum supplies Certificate.verify_directly_issued_by; use a current patched release.
+cryptography>=42
+# For Arch package caches and Zstandard-compressed application/container content.
+zstandard>=0.23
